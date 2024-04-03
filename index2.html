@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="essaie.css">
+    <link rel="stylesheet" href="Boutique arsenal.css">
+    <title>Boutique</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="index2.html">Boutique</a></li>
+                <li><a href="index3.html">Actualité</a></li>
+                <li><a href="index4.html">Info</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <h1>Notre boutique</h1>
+    <div class="content">
+        <div class="menu active">
+            <div class="perso">
+                <div class="left"></div>
+                <div class="right">
+                    <h1>Personnage 1 <br><b> Personnage 1</b> : 15€ </h1>
+                </div>
+            </div>
+            <div class="perso-bg">
+                <img src="E:\siter web corriger\skin1.jpg" height="700px">
+        </div>
+    </div>
+            <div class="menu">
+            <div class="perso">
+                <div class="left"></div>
+                <div class="right">
+                    <h1>Personnage 2 <br><b> Personnage 2</b> : 20€</h1>
+                </div>
+            </div>
+            <div class="perso-bg">
+                <img class="photo" src="E:\siter web corriger\skin2.jpg" height="700px">
+        </div>
+    </div>
+            <div class="menu">
+            <div class="perso">
+                <div class="left"></div>
+                <div class="right">
+                    <h1>Personnage 3 <br><b>Personnage 3</b> : 16,99€ </h1>
+                </div>
+            </div>
+            <div class="perso-bg">
+                <img src="E:\siter web corriger\skin3.jpg" height="700px">
+        </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+      $(document).on("click", ".menu", function () {
+        $(this).addClass("active").siblings().removeClass("active");
+      });
+    </script>
+
+</body>
+</html>
